@@ -11,6 +11,9 @@ export default function SignIn() {
           <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">
             Sign in
           </h2>
+          <p className=" text-center text-sm font-semibold tracking-tight text-gray-800">
+            Become a member
+          </p>
         </div>
 
         <div className="mt-10 sm:mx-auto sm:w-96 sm:max-w-sm">
@@ -55,14 +58,7 @@ export default function SignIn() {
                 >
                   Password
                 </label>
-                <div className="text-sm">
-                  {/*  <a
-                    href=""
-                    className="font-semibold text-indigo-700 hover:text-indigo-200"
-                  >
-                    Forgot Password?
-                  </a> */}
-                </div>
+                <div className="text-sm"></div>
               </div>
               <div className="mt-2">
                 <input
