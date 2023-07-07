@@ -20,7 +20,7 @@ export default function Login() {
   function onSubmit(data: LoginData) {
     fetch("https://dummyjson.com/auth/login", {
       method: "POST",
-      headers: { "Content-type": "aplication/json" },
+      headers: { "Content-type": "application/json" },
       body: JSON.stringify({
         username: data.username,
         password: data.password,
